@@ -39,7 +39,7 @@ class ProdutoDestaque extends Produtos{
 
 
 const produto = new Produtos ("Sabão de coco", "22/08/2023", "Sabão feito de coco" , 2)
-const produtoDestaque = new ProdutoDestaque ("Sabão de Laranja", "22/08/2023", "Sabão feito de Laranja" , 2 , "https://www.google.com/imgres?imgurl=https%3A%2F%2Fblog.sodabel.com.br%2Fwp-content%2Fuploads%2F2022%2F11%2Fsabao-de-laranja.jpg&tbnid=XSvBPo4re5BorM&vet=12ahUKEwjbwN2x6bb-AhVFCbkGHZgrCqsQMygFegUIARDTAQ..i&imgrefurl=https%3A%2F%2Fblog.sodabel.com.br%2Ftag%2Fcomo-fazer-sabao-de-laranja%2F&docid=O5sxg4l18Q9zYM&w=1178&h=785&q=sab%C3%A3o%20de%20laranja&ved=2ahUKEwjbwN2x6bb-AhVFCbkGHZgrCqsQMygFegUIARDTAQ" )
+const produtoDestaque = new ProdutoDestaque ("Sabão de Laranja", "22/08/2023", "Sabão feito de Laranja" , 2 , "https://blog.sodabel.com.br/wp-content/uploads/2022/11/sabao-de-laranja.jpg" )
 console.log(produto.mostrarDados())
 console.log(produtoDestaque.mostrarDadosDestaque())
 

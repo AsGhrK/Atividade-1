@@ -1,3 +1,89 @@
+
+/* Estilos para centralizar o conteúdo */
 body {
-  background: #CCC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Estilos para o div do produto em destaque */
+#produto-destaque {
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Arredonda as bordas */
+  padding: 10px; /* Diminui o espaçamento interno */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: navy;
+  color: #fff;
+  max-width: 300px; /* Define uma largura máxima para reduzir o tamanho */
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Estilos para o h1 do produto em destaque */
+#produto-destaque h1 {
+  font-size: 24px; /* Tamanho da fonte */
+  margin-bottom: 10px; /* Margem inferior */
+}
+
+/* Estilos para a imagem do produto em destaque */
+#produto-destaque img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px; /* Arredonda as bordas da imagem */
+ 
+}
+
+/* Estilos para a descrição do produto em destaque */
+#produto-destaque div {
+  font-size: 18px; /* Tamanho da fonte */
+  margin-bottom: 10px; /* Margem inferior */
+}
+
+/* Estilos para o h2, preço e data de cadastro do produto em destaque */
+#produto-destaque h2,
+#produto-destaque h3,
+#produto-destaque p {
+  font-size: 16px; /* Tamanho da fonte */
+  margin-bottom: 10px; /* Margem inferior */
+}
+/* Estilos para o card do produto em destaque */
+#produto-destaque .card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  background-color: navy;
+  color: #fff; /* Define a cor do texto para branco */
+  /* Restante dos estilos... */
+}
+
+/* Estilos para o nome do produto no card */
+#produto-destaque .card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para a imagem do produto no card */
+#produto-destaque .card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Estilos para a descrição do produto no card */
+#produto-destaque .card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para o preço do produto no card */
+#produto-destaque .card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
