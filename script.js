@@ -12,6 +12,7 @@ mostrarDados(){
     return`
     <div class="produto-padrao">
     <h1>${this.nome}</h1>
+    <br>
     <div>${this.descricao}</div>
     <h3>Preço: ${this.preco},00</h3>
     <p>${ this.dataDCadrastro}</p> 

@@ -16,19 +16,19 @@ body {
 /* Headings */
 h1 {
   color: #333;
-  font-size: 32px; /* Alterado para 32px */
+  font-size: 30px; /* Alterado para 32px */
 }
 
 h2 {
   color: #666;
-  font-size: 24px; /* Alterado para 24px */
+  font-size: 28px; /* Alterado para 24px */
 }
 
 /* Product containers */
 .container {
   background-color: #FFFFFF;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -42,12 +42,16 @@ h2 {
   margin: 10px;
   border-radius: 10px;
   background-color: #8ac5ff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .produto-destaque {
   border: 1px solid #ccc;
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -65,6 +69,42 @@ h2 {
 .produto-destaque h1 {
   margin: 0;
   color: #333;
-  font-size: 50px;
+  font-size: 48px;
 }
+.produto-padrao h1{
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+/* CSS for larger screens */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* CSS for medium screens */
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+/* CSS for smaller screens */
+@media (max-width: 576px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
   
+  .produto-destaque img {
+    max-width: 100%;
+  }
+}
