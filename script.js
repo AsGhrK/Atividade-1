@@ -70,11 +70,6 @@ class ProdutoDestaque extends Produtos{
        
     }
     
-
-
-
-
-
 const produto = new Produtos ("Sabão de coco", "22/08/2023", "Sabão feito de coco" , 2)
 const produto2 = new Produtos ("Sabão de maracuja ", "16/08/2023", "Sabão feito de maracuja" , 2)
 const produto3 = new Produtos ("Sabão de limão ", "16/08/20230", "Sabão feito de limão" , 2)
